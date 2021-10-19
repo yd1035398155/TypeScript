@@ -19,3 +19,4 @@
 // 3 了解 不推荐
 const message = "abc"
 const res: number = message as any as number
+export {}
