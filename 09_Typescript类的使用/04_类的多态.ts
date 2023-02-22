@@ -13,6 +13,7 @@ class Fish extends Animal {
     console.log("Fish Swimming")
   }
 }
+// 定义：父类定义，子类可以有不同实现
 // 多态的目的是为了使代码更加具备通用性,使用统一的接口
 function doSomething(animal: Animal[]) {
   animal.forEach((item) => item.action())
